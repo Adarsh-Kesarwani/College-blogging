@@ -2,7 +2,6 @@ import React,{useEffect,useState} from 'react'
 import Loader from '../loader/Loader';
 import Navbar from '../Navbar/Navbar'
 import BlogCard from './BlogCard'
-// import Temp from '../Temp';
 import axios from 'axios';  
 const Home=()=>{
   const [arrayfoblogs,blogState]=useState([])

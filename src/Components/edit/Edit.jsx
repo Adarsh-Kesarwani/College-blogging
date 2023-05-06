@@ -62,7 +62,7 @@ const postContent=async(e)=>{
                     </label>
                    </div>
                     <div className="mainblog">
-                          <textarea  type="text" onChange={(e)=>{blogDataState({...blogData ,  blogContent:e.target.value})}}required placeholder='add content' className='form-check blogData contents'  > 
+                          <textarea  type="text" onChange={(e)=>{blogDataState({...blogData ,  blogContent:e.target.value})}}required placeholder='Write your point' className='form-check blogData contents'  > 
                           </textarea>
                     </div>
                   </div> 

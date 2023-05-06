@@ -87,7 +87,7 @@ function Profile() {
                     <NavLink to={`/edit/${token}`} className="nlink"> 
                      
                       <button className="btn-success editButton"  >
-                      Add
+                      Write Blog
                       </button>
                    
                     </NavLink>

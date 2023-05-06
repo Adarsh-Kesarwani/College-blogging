@@ -20,8 +20,9 @@
     justify-content: center;
 }
 .contentOfBlog{
-    font-size: 18px;
-    font-family: fantasy;
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
 }
 .feetback{
     width: 70vw;
@@ -70,6 +71,6 @@ pre{
     }
    .ReadingBLogContainer{
        margin-bottom: 70px;
-       margin-top: 10px;
+       margin-top: 50px;
    }
 }

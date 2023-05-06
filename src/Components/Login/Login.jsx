@@ -37,6 +37,9 @@ function Login(prop) {
         document.getElementById("loader").style.display="none"
           alert("not valid details") }
       }
+      const coming=()=>{
+        alert("Sab kuch aaj hi chahiye?");
+      }
   return (
     <>   
     <Loader/>
@@ -56,7 +59,7 @@ function Login(prop) {
              <button onClick={Login} className="btn-success login-button">
                 Login
              </button>
-             <a href="#" className='link forget'> forget Password</a>
+             <a onClick={coming} href="#" className='link forget'> forget Password</a>
            </form>
               </div>
           </div>
